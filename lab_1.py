@@ -1,11 +1,10 @@
 n = int(input('number -> '))
 c = int(input('cost -> '))
 d = int(input('discount% -> '))
-
 print('1 -- total cost\n2 -- discounted price of one')
 
-op = '->'
-res = ''
+op = input('->')
+res = ""
 
 
 if op == '1':
